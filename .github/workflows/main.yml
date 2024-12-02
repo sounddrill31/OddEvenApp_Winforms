@@ -40,7 +40,6 @@ jobs:
 
     - name: Restore dependencies
       run: |
-        cd OddEvenApp_Winforms
         dotnet workload restore
 
     - name: Build
